@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="action_client_example" model="ir.actions.client">
+            <field name="name">Action Client Example</field>
+            <field name="tag">action_client_example</field>
+            <field name="context" eval="{'model': 'action.client.example'}" />
+        </record>
+    </data>
+</odoo>

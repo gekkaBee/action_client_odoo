@@ -1,0 +1,5 @@
+<odoo>
+    <data>
+        <menuitem name="Action Client Example" id="action_client_example_menu" action="action_client_example.action_client_example" sequence="1" />
+    </data>
+</odoo>
