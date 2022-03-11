@@ -1,0 +1,23 @@
+<template id="action_client_odoo_template">
+    <t t-name="CustomForm">
+        <!-- Template for input fields  -->
+        <div class="container-fluid">
+            <div class="row" id="header_section">
+                <div class="col-6">
+                    <label for="char_field">Character Field</label>
+                    <input type="text" id="char_field" name="char_field" class="form-control header-input"/>
+                </div>
+                <div class="col-6">
+                    <label for="integer_field">Integer Field</label>
+                    <input type="text" id="integer_field" name="integer_field" class="form-control header-input"/>
+                </div>
+            </div>
+        </div>
+    </t>
+
+    <t t-name="FooterButtons">
+        <button type="button" class="btn btn-primary custom_btn_save" accesskey="s">Save</button>
+        <button type="button" class="btn btn-cancel margin-r-15" data-dismiss="modal" accesskey="j">Discard</button>
+    </t>
+
+</template>
